@@ -14,7 +14,11 @@ docker pull khushaalan/oracle-19.3.0-ee-x64
 ### Prerequisites
 1. Download Oracle Database zip files from:
    - [Oracle Database Software Downloads](https://www.oracle.com/my/database/technologies/oracle-database-software-downloads.html)
-   - Or use existing zip files from the repository's zips folder (x64 or ARM architecture)
+   - Or download from alternative source:
+     ```bash
+     git clone https://huggingface.co/galaxygummybear/oracle-database-containerization
+     ```
+     The cloned repository contains zip files for both x64 and ARM architectures
 
 ### Build Steps
 1. Clone the repository:
